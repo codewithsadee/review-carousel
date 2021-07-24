@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+* {
+  margin: 0px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  background: #dbeafd;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: sans-serif;
+  padding: 50px 0;
+}
+
+.container .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .heading h1 {
+  font-size: 32px;
+  color: #121a2b;
+}
+
+.container .heading .hr {
+  width: 80px;
+  height: 4px;
+  background: #58a6ff;
+  margin-top: 10px;
+}
+
+.container .carousel-box {
+  max-width: 600px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 30px 20px;
+}
+
+.container .carousel-box .review-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .carousel-box .review-box .client-img {
+  position: relative;
+}
+
+.container .carousel-box .review-box .client-img .img {
+  height: 140px;
+  width: 140px;
+  border-radius: 100px;
+  -webkit-box-shadow: 8px -3px #58a6ff;
+          box-shadow: 8px -3px #58a6ff;
+  overflow: hidden;
+}
+
+.container .carousel-box .review-box .client-img .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .carousel-box .review-box .client-img .dubble-qoute {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  font-size: 50px;
+  border-radius: 100px;
+  color: #ffffff;
+  background: #58a6ff;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.container .carousel-box .review-box .client-detail {
+  margin: 20px 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.container .carousel-box .review-box .client-detail .name {
+  letter-spacing: 4px;
+  color: #121a2b;
+}
+
+.container .carousel-box .review-box .client-detail .title {
+  font-size: 12px;
+  color: #58a6ff;
+  margin-top: 5px;
+}
+
+.container .carousel-box .review-box .review {
+  margin-bottom: 20px;
+}
+
+.container .carousel-box .review-box .review p {
+  color: #67728b;
+  font-weight: 500;
+  text-align: center;
+  line-height: 22px;
+}
+
+.container .carousel-box .review-box .button-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.container .carousel-box .review-box .button-box .prev {
+  cursor: pointer;
+}
+
+.container .carousel-box .review-box .button-box .prev div {
+  height: 12px;
+  width: 12px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-style: solid;
+  border-width: 0 0 3px 3px;
+  border-color: #58a6ff;
+}
+
+.container .carousel-box .review-box .button-box .next {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.container .carousel-box .review-box .button-box .next div {
+  height: 12px;
+  width: 12px;
+  border-style: solid;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-width: 3px 3px 0 0;
+  border-color: #58a6ff;
+}
+
+.container .carousel-box .review-box .random-btn {
+  font-size: 14px;
+  color: #58a6ff;
+  border: 2px solid #58a6ff;
+  padding: 3px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}

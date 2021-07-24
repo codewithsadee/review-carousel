@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+// brwser reset
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  // border: 1px solid;
+}
+
+.container {
+  background: #dbeafd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 50px 0;
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 32px;
+      color: #121a2b;
+    }
+
+    .hr {
+      width: 80px;
+      height: 4px;
+      background: #58a6ff;
+      margin-top: 10px;
+    }
+  }
+
+  .carousel-box {
+    max-width: 600px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 30px 20px;
+
+    .review-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .client-img {
+        position: relative;
+
+        .img {
+          height: 140px;
+          width: 140px;
+          border-radius: 100px;
+          box-shadow: 8px -3px #58a6ff;
+          overflow: hidden;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .dubble-qoute {
+          position: absolute;
+          top: 10px;
+          left: 0;
+          width: 40px;
+          height: 40px;
+          font-size: 50px;
+          border-radius: 100px;
+          color: #ffffff;
+          background: #58a6ff;
+          font-family: 'Kaushan Script', cursive;
+        }
+      }
+
+      .client-detail {
+        margin: 20px 0;
+        text-align: center;
+        font-weight: 600;
+
+        .name {
+          letter-spacing: 4px;
+          color: #121a2b;
+        }
+
+        .title {
+          font-size: 12px;
+          color: #58a6ff;
+          margin-top: 5px;
+        }
+      }
+
+      .review {
+        margin-bottom: 20px;
+
+        p {
+          color: #67728b;
+          font-weight: 500;
+          text-align: center;
+          line-height: 22px;
+        }
+      }
+
+      .button-box {
+        display: flex;
+        margin-bottom: 20px;
+
+        .prev {
+          cursor: pointer;
+
+          div {
+            height: 12px;
+            width: 12px;
+            transform: rotate(45deg);
+            border-style: solid;
+            border-width: 0 0 3px 3px;
+            border-color: #58a6ff;
+          }
+        }
+
+        .next {
+          cursor: pointer;
+          margin-left: 10px;
+
+          div {
+            height: 12px;
+            width: 12px;
+            border-style: solid;
+            transform: rotate(45deg);
+            border-width: 3px 3px 0 0;
+            border-color: #58a6ff;
+          }
+        }
+      }
+
+      .random-btn {
+        font-size: 14px;
+        color: #58a6ff;
+        border: 2px solid #58a6ff;
+        padding: 3px 8px;
+        border-radius: 8px;
+        cursor: pointer;
+        user-select: none;
+      }
+    }
+  }
+}
